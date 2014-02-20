@@ -3,7 +3,7 @@
  */
 
 var Attribute = require('./attribute')
-  , Emitter = require('emitter');
+  , Emitter = require('component-emitter');
 
 
 /**

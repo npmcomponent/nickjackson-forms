@@ -1,0 +1,22 @@
+{
+  "name": "nickjackson-forms",
+  "description": "create forms dynamically by providing a JSON schema",
+  "version": "0.3.0",
+  "keywords": [
+    "form",
+    "json",
+    "dynamic"
+  ],
+  "styles": [
+    "forms.css"
+  ],
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "visionmedia-minstache": "git://github.com/npmcomponent/visionmedia-minstache.git",
+    "nickjackson-val": "git://github.com/npmcomponent/nickjackson-val.git"
+  },
+  "license": "MIT"
+}

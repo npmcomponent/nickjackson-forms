@@ -1,13 +1,13 @@
 /**
  * Module dependencies.
  */
-var Emitter = require('emitter')
-  , event = require('event')
-  , domify = require('domify')
+var Emitter = require('component-emitter')
+  , event = require('component-event')
+  , domify = require('component-domify')
   , templates = require('./template')
-  , type = require('type')
-  , minstache = require('minstache')
-  , val = require('val');
+  , type = require('component-type')
+  , minstache = require('visionmedia-minstache')
+  , val = require('nickjackson-val');
 
 /**
  * Expose `Attribute`.
